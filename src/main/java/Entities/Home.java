@@ -1,6 +1,6 @@
 package Entities;
 
-public class Home {
+public class Home implements Foundable {
 	String name;
 	int patrimony;
 	int fundationYear;
@@ -8,6 +8,12 @@ public class Home {
 	String originPlaceName() {
 		//TODO
 		return "";
+	}
+
+	@Override
+	public int fundationYear() {
+		// TODO
+		return 0;
 	}
 	
 }

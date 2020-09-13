@@ -6,7 +6,7 @@ import java.util.List;
 import Entities.Place.Casttle;
 import Entities.Place.City;
 
-public class Region {
+public class Region implements Foundable {
 	String name;
 	
 	List<Casttle> casttles(){
@@ -17,6 +17,12 @@ public class Region {
 	List<City> cities() {
 		//TODO
 		return new ArrayList<City>();
+	}
+
+	@Override
+	public int fundationYear() {
+		// TODO
+		return 0;
 	}
 	
 }
