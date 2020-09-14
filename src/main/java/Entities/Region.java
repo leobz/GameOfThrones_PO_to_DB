@@ -24,11 +24,12 @@ public class Region extends Foundable {
 
 	String name;
 
+	@ManyToMany
 	public List<Casttle> casttles() {
 		// TODO
 		return new ArrayList<Casttle>();
 	}
-
+	@ManyToMany
 	public List<City> cities() {
 		// TODO
 		return new ArrayList<City>();
