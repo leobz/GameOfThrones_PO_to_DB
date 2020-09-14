@@ -10,7 +10,7 @@ import Entities.MilitaryForce.MilitaryForce;
 import Entities.Place.Place;
 
 @Entity
-public class Home implements Foundable {
+public class Home extends Foundable {
 	@Id
 	@GeneratedValue
 	private int id;

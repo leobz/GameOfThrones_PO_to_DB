@@ -13,7 +13,7 @@ import Entities.Place.City;
 import Entities.Place.Place;
 
 @Entity
-public class Region implements Foundable {
+public class Region extends Foundable {
 
 	@Id
 	@GeneratedValue

@@ -1,5 +1,7 @@
 package Entities;
 
-public interface Foundable {
-	int fundationYear();
+public abstract class Foundable {
+	int fundationYear() {
+		return 0;
+	}
 }
